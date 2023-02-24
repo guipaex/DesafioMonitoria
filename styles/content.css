@@ -1,0 +1,49 @@
+.mainConteiner{
+    max-width: 1280px;
+    margin: 2.5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+.trilha{
+    background-color: var(--grey);
+    border-radius: 4px;
+    width: 400px;   height: 445px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.trail__title{
+    color: var(--trailTitle);
+    font-size: 1.5rem;
+    line-height: 1.95rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.trail__description{
+    height: 63.5%;
+}
+.trilha p{
+    width: 328.1px;
+}
+.trilha p:nth-of-type(2n){
+    margin-top: 1rem;
+}
+.trilha a{
+    text-decoration: none;
+    font-size: .875rem;
+    color: var(--textBlue);
+    transition: 650ms;
+    line-height: 1.14rem;
+    padding: .92rem 1.14rem;
+    border: 1px solid var(--borderColor);
+    border-radius: 4px;
+    margin-top: 2rem;
+    width: 45%; height: 50px;
+}
+
+.trilha a:hover{
+    background-color: var(--textBlue);
+    color: white;
+}

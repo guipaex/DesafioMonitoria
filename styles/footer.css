@@ -1,0 +1,42 @@
+footer{
+    background-color: white;
+    height: 110px;
+    display: flex;
+}
+.footerContainer{
+    width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.footer__parceria{
+    height: 62px;
+    justify-content: center;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.logo__alura{
+    height: 38.06px
+}
+.footer_infos{
+    font-size: 0.875rem;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: .5rem;
+    width: 320px;
+    list-style: none;
+}
+.footer_infos a{
+    text-decoration: none;
+    color: black;
+}
+.social-media{
+    height: 2rem;
+    align-items: center;
+}
